@@ -1,0 +1,18 @@
+.media-scroller{
+    background-color:#E0E5EF ;
+      display: grid;
+      gap: 12px;
+      grid-auto-flow: column;
+      grid-auto-columns: 21%;
+      padding: 34px 10px 10px;
+      overflow-x: auto;
+      overscroll-behavior-inline: contain;
+      margin-top: 97px;
+  }
+  .media-element{
+    display: grid;
+    grid-template-rows: min-content;
+  }
+  .media-element video{
+    inline-size: 100%;
+  }

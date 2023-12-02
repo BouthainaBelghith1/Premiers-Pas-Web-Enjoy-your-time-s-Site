@@ -1,0 +1,54 @@
+.affiche{
+    width:95%;
+    height: 500px;
+    padding-left: 26px;
+    margin-top: 30px;
+  }  
+.menu{
+    background-color: #E0E5EF;
+    width:75%;
+    margin-left: 15%;
+    margin-top: 100px;
+  }
+  .direction{
+    display: inline-block;
+    padding-left: 280px;
+    padding-top: 45px;
+    padding-bottom: 45px;
+    word-spacing: 35px;
+  }
+  .direction a{
+    text-decoration: none;
+    font-size: x-large;
+    color:#222;
+  }
+  .class{
+    margin-top: 70px;
+  }
+  .titre{
+    text-align: center;
+    font-size: xx-large;
+  }
+  .article{
+    border:2px solid black;
+    border-left: none;
+    border-right: none;
+    height: 284px;
+    margin-bottom: 20px;
+  }
+  .article img:hover{
+    filter:grayscale(100%);
+    cursor: pointer;
+  }
+  .art{
+    position: relative;
+    width: 450px;
+    left: 244px;
+    bottom: 263px;
+  }
+  .petit{
+    width: 200px;
+    height: 239px;
+    padding-left: 20px;
+    padding-top: 20px;
+  }
